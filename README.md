@@ -37,3 +37,4 @@ This README file will demonstrate the process and steps that will be taken to co
 
 - Revalidate the parts that marked FIXME: or TODO: or TEMP: keywords, if they're finished, delete the annotations.
 - Check if there is any unnecessary **console.log()** that should be removed.
+- Compress images(if needed).
