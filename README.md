@@ -10,7 +10,7 @@ This README file will demonstrate the process and steps that will be taken to co
 
 ### Step 1: Organize Images, Fonts and Colors
 
-- Get images, font families and font sizes, and theme colors from the given file.
+- Get images, font families, and theme colors from the given file.
 - Set the fonts and colors to tailwind configs for consistent usage across the project.
 
 ### Step 2: Identify Common Components
@@ -32,3 +32,8 @@ This README file will demonstrate the process and steps that will be taken to co
 - Ensure the website is fully responsive by screen sizes.
 - Add the necessary animations.
 - Confirm the styles match the design specifications.
+
+### Step 6: Cleanups
+
+- Revalidate the parts that marked FIXME: or TODO: or TEMP: keywords, if they're finished, delete the annotations.
+- Check if there is any unnecessary **console.log()** that should be removed.
