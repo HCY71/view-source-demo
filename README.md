@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# View-Source Demo
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This is a **Next.js**(app router) typescript project styled with **Tailwind CSS**. The purpose of this project is to replicate the provided Figma design of the home page with clean, reusable, and well-structured code.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This README file will demonstrate the process and steps that will be taken to complete the project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Steps
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Step 1: Organize Images, Fonts and Colors
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Get images, font families and font sizes, and theme colors from the given file.
+- Set the fonts and colors to tailwind configs for consistent usage across the project.
 
-## Learn More
+### Step 2: Identify Common Components
 
-To learn more about Next.js, take a look at the following resources:
+- Review the Figma design for reusable components.
+- Create reusable React components for these parts and use the _atomic design_ system to manage them.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Step 3: Layout Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Modify the default layout provided by Next.js to match the design specifications.
 
-## Deploy on Vercel
+### Step 4: Implement Each Sections
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Implement sections of the page one by one, make them responsive **from small devices to larger ones.**
+- Use Formik to handle forms, and Yup for validations.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Step 5: Responsiveness and Details
+
+- Ensure the website is fully responsive by screen sizes.
+- Add the necessary animations.
+- Confirm the styles match the design specifications.
