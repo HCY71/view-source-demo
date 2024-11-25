@@ -4,7 +4,11 @@
 
 This is a **Next.js**(app router) typescript project styled with **Tailwind CSS**. The purpose of this project is to replicate the provided Figma design of the home page with clean, reusable, and well-structured code.
 
-This README file will demonstrate the process and steps that will be taken to complete the project.
+This README file will demonstrate the process and steps that will be taken to complete the project. Please note that while these are the intended steps for projects like this, I may not be able to complete all of them within the scope of this demo.
+
+## Why the Specs
+
+Using a modern framework like Next.js and TypeScript makes the project more versatile and manageable for future changes. It also offers a better developer experience by providing type safety, autocompletion, and easier debugging.
 
 ## Steps
 
@@ -20,12 +24,11 @@ This README file will demonstrate the process and steps that will be taken to co
 
 ### Step 3: Layout Setup
 
-- Modify the default layout provided by Next.js to match the design specifications.
+- Modify the default **layout** provided by Next.js to match the design specifications.
 
 ### Step 4: Implement Each Sections
 
 - Implement sections of the page one by one, make them responsive **from small devices to larger ones.**
-- Use Formik to handle forms, and Yup for validations.
 
 ### Step 5: Responsiveness and Details
 
@@ -33,8 +36,13 @@ This README file will demonstrate the process and steps that will be taken to co
 - Add the necessary animations.
 - Confirm the styles match the design specifications.
 
-### Step 6: Cleanups
+### Step 6: Functionality (If)
 
-- Revalidate the parts that marked FIXME: or TODO: or TEMP: keywords, if they're finished, delete the annotations.
-- Check if there is any unnecessary **console.log()** that should be removed.
-- Compress images(if needed).
+- Use Formik to handle forms, and Yup for validations.
+- CMS integration, etc...
+
+### Step 7: Cleanups (If)
+
+- Revalidate the parts marked with _FIXME:_, _TODO:_, or _TEMP:_ keywords (they are special keywords in my editor). If they're finished, delete the annotations.
+- Check if there are any unnecessary **console.log()** statements that should be removed.
+- Compress images.
