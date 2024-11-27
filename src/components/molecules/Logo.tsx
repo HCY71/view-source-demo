@@ -18,12 +18,13 @@ const Logo: React.FC<LogoProps> = (props) => {
     return colors[Math.floor(Math.random() * colors.length)];
   };
   return (
-    <div className="relative select-none">
+    <div className="relative select-none md:w-[75vw] xl:w-[50vw] xl:max-w-[804px]">
       <Image
         src={"./images/logo.svg"}
         alt="The Locavore_VARIETY STORE_Purveyors of Local Good"
         width={370}
         height={240}
+        className="w-full max-w-[unset]"
       />
       <svg
         viewBox="0 0 331 152"

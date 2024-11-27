@@ -10,7 +10,7 @@ import Body from "../atoms/text/Body";
 
 const FileInput: React.FC<FileInputProps> = (props) => {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2 py-3">
       <label htmlFor={props.id} className="text-desktop-body">
         {props.label + (props.isRequired ? "*" : "")}
       </label>

@@ -64,27 +64,35 @@ const OurBrand: React.FC<OurBrandProps> = (props) => {
   return (
     <section
       id="our-brand"
-      className="grid gap-5 px-4 py-[60px] md:grid-cols-3"
+      className="px-4 pb-10 pt-[60px] md:pb-20 xl:px-[30px] xl:pb-[60px]"
     >
-      <H3>Our Brands</H3>
-      {mockData.map((d) => (
-        <div
-          key={d.type}
-          className="border-b border-dashed border-locavore-black pb-10 pt-5 md:h-fit"
-        >
-          <h4 className="text-desktop-sub mb-5">{d.type}</h4>
-          <ul className="columns-2 md:columns-1">
-            {d.items.map((item) => (
-              <li
-                key={item + Math.random()}
-                className="py-1 font-ppNeueMontreal text-[1.0625rem] font-medium leading-[1.5] tracking-[0.010625rem]"
-              >
-                {item}
-              </li>
-            ))}
-          </ul>
+      <div className="3xl:container-max-w flex flex-col gap-10 md:flex-row md:gap-16">
+        <H3 className="xl:text-desktop-h1 h-fit md:sticky md:top-[60px]">
+          Our Brands
+        </H3>
+        <div className="w-full columns-1 md:columns-2 md:gap-x-14 xl:columns-3 xl:gap-x-[70px]">
+          {mockData.map((d) => (
+            <div
+              key={d.type}
+              className="mb-5 break-inside-avoid-column border-b border-dashed border-locavore-black pb-10 pt-5 md:h-fit xl:mb-8"
+            >
+              <h4 className="text-desktop-sub xl:text-desktop-h4 mb-5 xl:mb-6">
+                {d.type}
+              </h4>
+              <ul className="columns-2 md:columns-1">
+                {d.items.map((item) => (
+                  <li
+                    key={item + Math.random()}
+                    className="py-1 font-ppNeueMontreal text-[1.0625rem] font-medium leading-[1.5] tracking-[0.010625rem] xl:text-[1.1875rem] xl:leading-[1.7] xl:tracking-[0.010625rem]"
+                  >
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
-      ))}
+      </div>
     </section>
   );
 };

@@ -31,7 +31,10 @@ const Contact: React.FC<ContactProps> = (props) => {
   };
 
   return (
-    <form className="flex w-full flex-col gap-4" onSubmit={handleSubmit}>
+    <form
+      className="flex w-full flex-col gap-4 md:w-full md:pb-20 md:pl-5 md:pt-10 lg:pt-[130px] xl:pb-[128px] xl:pl-[90px] xl:pr-[60px]"
+      onSubmit={handleSubmit}
+    >
       <Input
         id="name"
         label="First and Last Name"

@@ -23,7 +23,7 @@ const SubNav: React.FC<SubNavProps> = (props) => {
   ];
   return (
     <nav className="fixed bottom-0 z-50 w-full overflow-x-scroll border-y border-dashed border-locavore-black bg-background font-fakeReceipt text-[0.75rem]">
-      <ul className="flex w-max gap-20 px-[30px] py-[21px]">
+      <ul className="flex w-max gap-20 px-[30px] py-[21px] md:w-full md:justify-around">
         {navs.map((n) => (
           <li
             key={n.name}

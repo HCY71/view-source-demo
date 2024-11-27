@@ -30,6 +30,9 @@ body {
   .flex-center {
     @apply flex items-center justify-center;
   }
+  .container-max-w {
+    @apply mx-auto max-w-[1920px];
+  }
   /* Texts */
   .text-desktop-button {
     @apply text-[0.9375rem] font-medium tracking-[0.009375rem];
@@ -37,8 +40,23 @@ body {
   .text-desktop-body {
     @apply text-[0.9375rem] leading-[1.6] tracking-[0.01875rem];
   }
+  .text-desktop-large-body {
+    @apply text-[1.1875rem] leading-[1.7] tracking-[0.011875rem];
+  }
+  .text-desktop-h1 {
+    @apply font-arialRounded text-[6.25rem] leading-[1.1] tracking-[-0.3125rem];
+  }
+  .text-desktop-h2 {
+    @apply font-arialRounded text-[4.6875rem] leading-[1.1] tracking-[-0.1875rem];
+  }
   .text-desktop-h3 {
     @apply font-arialRounded text-[3.4375rem] leading-[1.2] tracking-[-0.1375rem];
+  }
+  .text-desktop-h4 {
+    @apply font-ppNeueMontreal text-[1.9375rem] font-medium leading-[1.3] tracking-[-0.019375rem];
+  }
+  .text-desktop-h5 {
+    @apply font-arialRounded text-[2.25rem] leading-[1.2] tracking-[-0.09rem];
   }
   .text-desktop-sub {
     @apply font-ppNeueMontreal text-[1.25rem] font-medium leading-[1.3];
