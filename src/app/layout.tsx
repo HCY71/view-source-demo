@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
+import SubNav from "@/components/organisms/forms/SubNav";
+
 // Load local fonts
 const fakeReceipt = localFont({
   src: "./fonts/LOCAVORE-WEB-FONTS/fake-receipt_woff/fake-receipt.woff",
